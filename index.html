@@ -1,69 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Young+Serif&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <style>
-h1{
-    font-family: quicksand;
-    font-size: 40px;
-    text-decoration: underline;
-    color: tomato;
-    font-weight: lighter;
-    font-style: italic;
-}
-.selectors{
-    font-size: 30px;
-    color: green;
-    font-weight: lighter;
-    font-family: youngserif;
-}
-p{
-    font-size: 25px;
-    font-family: youngserif;
-    font-style: italic;
-    line-height: 40px;
-    color: rgb(0, 47, 255);
-    word-spacing: 5pxpx;
-    letter-spacing: 5px;
-    
+        h1 {
+            font-family: quicksand;
+            font-size: 40px;
+            text-decoration: underline;
+            color: tomato;
+            font-weight: lighter;
+            font-style: italic;
+        }
 
-}
-.sheet{
-    
-    font-size: 35px;
-    font-family: quicksand;
-    font-style: italic;
-    line-height: 30px;
-    color: goldenrod;
-    word-spacing: 8px;
-    letter-spacing: 2px;
-    
+        .selectors {
+            font-size: 30px;
+            color: green;
+            font-weight: lighter;
+            font-family: youngserif;
+        }
 
-}
-#jer{
-    font-size: xx-large;
+        p {
+            font-size: 25px;
+            font-family: youngserif;
+            font-style: italic;
+            line-height: 40px;
+            color: rgb(0, 47, 255);
+            word-spacing: 5pxpx;
+            letter-spacing: 5px;
 
-}
-p,h1,li{
-    border: 1px solid red;
-}
+
+        }
+
+        .sheet {
+
+            font-size: 35px;
+            font-family: quicksand;
+            font-style: italic;
+            line-height: 30px;
+            color: goldenrod;
+            word-spacing: 8px;
+            letter-spacing: 2px;
+
+
+        }
+
+        #jer {
+            font-size: xx-large;
+
+        }
+
+        p,
+        h1,
+        li {
+            border: 1px solid red;
+        }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css part 2</title>
 </head>
+
 <body>
-    <h1 >
+    <h1>
         Introduction to css
     </h1>
     <p>
-    Css is a short form for cascading style sheet. It is a stlying language used to style and add beauty to a website .
+        Css is a short form for cascading style sheet. It is a stlying language used to style and add beauty to a
+        website .
     </p>
     <h3>Ways to write css</h3>
     <ol>
@@ -76,10 +90,11 @@ p,h1,li{
         <li>
             External css
         </li>
-    
+
     </ol>
-    <h4> 
-        Inline css; <br>this done with the use of css but inside what you are coding.It can be done using the stlye tag .
+    <h4>
+        Inline css; <br>this done with the use of css but inside what you are coding.It can be done using the stlye tag
+        .
     </h4>
     <h4>
         Internal css;<br>this is done at the header of the html page to add style styles to codes.
@@ -102,12 +117,33 @@ p,h1,li{
             Name selector
         </li>
         <li>class selectors</li>
-        <li>Id selectors</li>    
-        <li>Multiple selector</li>                     
+        <li>Id selectors</li>
+        <li>Multiple selector</li>
+        <li>universal selector</li>
     </ol>
     <h1 id="jer">
-        id selector                                  
+        id selector
     </h1>
+    <form action="">
+        <div>
+            <label for="">full Name</label>
+            <input type="text" placeholder="please enter your name">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" placeholder="please enter your email">
+        </div><div>
+            <label for="phone number">phone number</label>
+            <input type="number" placeholder="please enter your number">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="text" placeholder="please enter your password">
+        </div>
+        <button><a href="http://127.0.0.1:5500/submit.html">Submit</a>
+        </button>
+    </form>
 
 </body>
+
 </html>
